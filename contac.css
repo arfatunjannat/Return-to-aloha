@@ -1,0 +1,135 @@
+
+
+/* header section start  */
+.header{
+    padding-bottom: 20px;
+    background-color: white;
+    position:sticky;
+    top: 0;
+}
+.header-row{
+    padding: 17px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-section-a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    color: #616160;
+    font-style: italic;
+    font-weight: 350;
+}
+.logo-section-a:hover{
+color:#474746;
+}
+
+.menu-section-icon i{
+   color: #3ec6ca;
+   font-size: 37px;
+   margin-left: 110px;
+   padding: 15px;  
+}
+.menu-section-text-ul{
+    display: flex;
+    gap: 22px;
+}
+.menu-section-text-li{
+    list-style: none;
+}
+.menu-section-text-a{
+    text-decoration: none;
+  color: black;
+}
+.menu-section-text-a:hover{
+    color:#3ec6ca ;
+    transition: 1s;
+}
+
+ /* dropdown-menu start  */
+.menu-section-text ul li{
+    position: relative;
+}
+.menu-section-text ul li ul{
+position: absolute;
+left: 0;
+right: 0;
+width: 120px;
+opacity: 0;
+visibility: hidden;
+}
+.menu-section-text ul li ul li{
+    display: block;
+}
+.menu-section-text ul li ul li a {
+    text-decoration: none;
+    padding-top: 12px;
+    color: #3c3c3b;
+ }
+ .menu-section-text ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+ }
+/* dropdown-menu end */
+/* header section end   */ 
+
+
+/* form section start */
+.container{
+    background-color:#eaeae8 ;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+.main-container{
+    text-align: center;
+}
+.form-btn-main{
+ margin: auto;
+    width: 30%;
+}
+.form-btn{
+    background-color: #12b9be;  
+    padding:10px 10px;
+    margin-top: 10px;
+}
+.form-text p{
+line-height: 40px;
+font-size: 14px;
+margin-top: 10px;
+}
+.form-text-2{
+   font-size: 14px;
+}
+.form-text-2 a{
+   color: #474746;
+}
+.contac-p{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/* form section end */
+
+
+/* footer section start */
+.footer{
+    background-color: #ffffff; 
+ }
+ .footer-row{
+     display: flex;
+     justify-content: space-evenly;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     box-shadow:0px 3px 5px #aeaead, 0px -2px 3px #aeaead;
+ }
+ .footer-container p{
+ font-size: 10px;
+ }
+ .footer-container a{
+     color: black;
+     font-size: 10px;
+ }
+ /* footer section end */

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* header section start  */
+ .header{
+    padding-bottom: 20px;
+    background-color: rgba(226, 224, 224, 0.918);
+    position:sticky;
+    top: 0;
+}
+.header-row{
+    padding: 17px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-section-a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    color: #616160;
+    font-style: italic;
+    font-weight: 350;
+}
+.logo-section-a:hover{
+color:#474746;
+}
+
+.menu-section-icon i{
+   color: #3ec6ca;
+   font-size: 37px;
+   margin-left: 110px;
+   padding: 15px;  
+}
+.menu-section-text-ul{
+    display: flex;
+    gap: 22px;
+}
+.menu-section-text-li{
+    list-style: none;
+}
+.menu-section-text-a{
+    text-decoration: none;
+  color: black;
+}
+.menu-section-text-a:hover{
+    color:#3ec6ca ;
+    transition: 1s;
+}
+
+ /* dropdown-menu start  */
+.menu-section-text ul li{
+    position: relative;
+}
+.menu-section-text ul li ul{
+position: absolute;
+left: 0;
+right: 0;
+width: 120px;
+opacity: 0;
+visibility: hidden;
+}
+.menu-section-text ul li ul li{
+    display: block;
+}
+.menu-section-text ul li ul li a {
+    text-decoration: none;
+    padding-top: 12px;
+    color: #3c3c3b;
+ }
+ .menu-section-text ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+ }
+/* dropdown-menu end */
+/* header section end   */ 
+
+/* the author section start */
+.img-section-main{
+    max-width: 85%;
+}
+/* the author section end */
+
+/* card-section-start */
+.cards{
+    z-index: initial;
+}
+i{
+   background-color: red; color:red;
+    font-size: 60px;
+}
+/* card-section-end */
+
+
+/* footer section start */
+.footer{
+   background-color: #ffffff; 
+}
+.footer-row{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow:0px 3px 5px #aeaead, 0px -2px 3px #aeaead;
+}
+.footer-container p{
+font-size: 10px;
+}
+.footer-container a{
+    color: black;
+    font-size: 10px;
+}
+/* footer section end */

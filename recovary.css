@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header section start  */
+ .nav-a{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+ }
+ .btn-login{
+    background-color: white;
+    border: 2px solid #12b8be;
+    padding: 8px 25px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #12b8be;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+ }
+ .btn-login:hover{
+    color: #0deef6;
+ }
+ .forgot-section-a{
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    color: #12b8be;
+    letter-spacing: 2px;
+    margin-top: 5px;
+ }
+/* header end */
+
+/* form section start */
+h1{
+   text-align: center;
+    font-weight: 700;
+    color: #625b57;
+   font-size: 60px;
+
+}
+
+/* form section end */
+
+
+/* footer section start */
+.footer-section{
+    margin-top: 100px;
+}
+.main-icon{
+text-align: center;
+font-size: 20px;
+color: gray;
+}
+
+.text-a{
+display: block;
+text-align: center;
+font-size: 24px;
+word-spacing: 10px;
+color: gray;
+}
+.text-a:hover{
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+a:hover{
+    color: gray;
+}
+.footer-section-p{
+text-align: center;
+letter-spacing: 1px;
+font-size: 20px;
+color: gray;
+}
+
+ /* footer section end */

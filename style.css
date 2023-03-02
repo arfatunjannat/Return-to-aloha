@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* header section start  */
+ .header{
+    padding-bottom: 20px;
+    background-color: white;
+    position:sticky;
+    top: 0;
+}
+.header-row{
+    padding: 17px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-section-a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    color: #616160;
+    font-style: italic;
+    font-weight: 350;
+}
+.logo-section-a:hover{
+color:#474746;
+}
+
+.menu-section-icon i{
+   color: #3ec6ca;
+   font-size: 37px;
+   margin-left: 110px;
+   padding: 15px;  
+}
+.menu-section-text-ul{
+    display: flex;
+    gap: 22px;
+}
+.menu-section-text-li{
+    list-style: none;
+}
+.menu-section-text-a{
+    text-decoration: none;
+  color: black;
+}
+.menu-section-text-a:hover{
+    color:#3ec6ca ;
+    transition: 1s;
+}
+
+ /* dropdown-menu start  */
+.menu-section-text ul li{
+    position: relative;
+}
+.menu-section-text ul li ul{
+position: absolute;
+left: 0;
+right: 0;
+width: 120px;
+opacity: 0;
+visibility: hidden;
+}
+.menu-section-text ul li ul li{
+    display: block;
+}
+.menu-section-text ul li ul li a {
+    text-decoration: none;
+    padding-top: 12px;
+    color: #3c3c3b;
+ }
+ .menu-section-text ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+ }
+/* dropdown-menu end */
+/* header section end   */ 
+
+/* the author section start */
+.img-section-main{
+    max-width: 85%;
+}
+/* the author section end */
+
+
+/* Candace Thoth section start */
+.all-container{
+    background-color: #f2f2f1;
+    padding-bottom: 70px;
+}
+.Candace-thoth-container{
+    text-align: center;
+    padding: 40px;
+    line-height: 30px;
+}
+.Candace-thoth-container-p-head{
+    font-size: 20px;
+}
+.Candace-thoth-container-h2{
+    font-size: 55px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600px;
+}
+.Candace-thoth-container-p{}
+.Candace-thoth-img-main{
+    text-align: center;
+}
+.Candace-thoth-img{
+    height: 600px;
+    width: 600px;
+}
+/* Candace Thoth section end */
+
+/* Upcoming Events start */
+.defult-h2{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+color: #585858;
+letter-spacing: 2px;
+}
+.upcoming-events-first{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.upcoming-events-img{
+    width: 500px;
+}
+.upcoming-events-img:hover{
+ transform:scale(1.1);
+transition: 7s; 
+}
+.upcoming-events-contain-card-section{
+    width: 500px;
+    background-color:white ;
+    color: black;
+}
+.upcoming-events-contain-card{
+ text-align: center; 
+margin-top: 20%;
+    
+}
+.upcoming-events-contain-card-span{
+    font-size: 14px;
+    line-height: 22px;
+    word-spacing: 6px; 
+}
+.upcoming-events-contain-card-p{
+    line-height: 42px;
+    font-size:24px ;
+    word-spacing: 6px;
+}
+.upcoming-events-contain-button{
+  background-color: #12b9be;  
+  text-decoration: none;
+  padding: 11px 45px;
+  border: 1px solid white;
+  color: white;
+}
+.upcoming-events-second{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 8px;
+}
+.upcoming-events-third{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 8px;
+    padding-bottom: 50px;
+}
+/* Upcoming Events end */
+
+/* forms section start */
+.forms{
+    padding: 60px;
+    align-items: center; 
+}
+.signup-box{
+    width: 420px;
+    height: 480px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px 20px;
+     position: static;
+    top: 0;
+    left: 0; 
+}
+.head-section-forms{
+    background-color: #12b9be;
+   padding-top: 25px;
+   padding-bottom: 50px;
+    clip-path: polygon(0 1%, 100% 0%, 100% 79%, 0% 100%);
+    margin-bottom: 40px;
+    
+}
+h5{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+display: flex;
+}
+form input{
+width: 100%;
+padding: 7px;
+}
+.forms-btn{
+   text-align: end;
+   margin-right: 70px;
+   padding: 30px;
+}
+.form-button{
+    background-color: #12b9be;  
+    padding: 11px 32px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    margin: auto;
+    font-weight: 500;
+}
+.forms-contain-section{
+    text-align: center;
+}
+.forms-contain-section a{
+    text-decoration: none;
+    color: black;
+    line-height: 28px;
+    font-size: 11px;
+}
+/* forms section end */
+
+/* footer section start */
+.footer{
+   background-color: #ffffff; 
+}
+.footer-row{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow:0px 3px 5px #aeaead, 0px -2px 3px #aeaead;
+}
+.footer-container p{
+font-size: 10px;
+}
+.footer-container a{
+    color: black;
+    font-size: 10px;
+}
+/* footer section end */
